@@ -1,0 +1,31 @@
+.counter_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 1px 10px skyblue;
+}
+.heading {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 600;
+}
+.count {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.button {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: blue;
+  color: white;
+  font-family: "Roboto";
+  font-size: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
